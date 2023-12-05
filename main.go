@@ -2,12 +2,9 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
-	integer := 1
-        fmt.Println(integer)
-
-	myvariable := -1.2
-	fmt.Println(myvariable)
+	var var1, var2, var3 = -1.2, 1, false
+	fmt.Println(var1, var2, var3)
 }
 
