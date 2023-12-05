@@ -4,7 +4,11 @@ import "fmt"
 
 func main() {
 
-	var1, var2, var3 := -1.2, 1, false
+	var (
+		var1 = -1.2
+		var2 = 1
+		var3 = false
+	)
 	fmt.Println(var1, var2, var3)
 }
 
