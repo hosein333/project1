@@ -5,14 +5,11 @@ import "fmt"
 func main() {
 
 	var (
-		var1 = -1.2
-		var2 = 1
-		var3 bool = false
-		var4 string 
+		var1 float64 = -1.2
+		var2 int = 1
 	)
-	var4 = "empty string"
-	var5 := "another string"
+	var3 := var1 + float64(var2)
 
-	fmt.Println(var1, var2, var3, var4, var5)
+	fmt.Println(var1, var2, var3,)
 }
 
