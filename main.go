@@ -4,9 +4,9 @@ import "fmt"
 
 const (
 	water = iota
-	air = iota
-	soil = iota
-	glass = iota
+	air
+	soil
+	glass
 )
 func main() {
 	fmt.Println(water, air, soil, glass)
