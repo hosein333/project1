@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-const (
-	water = iota
-	air
-	soil
-	glass
-)
 func main() {
-	fmt.Println(water, air, soil, glass)
+	i := 52
+	var p *int
+	p = &i
+
+	fmt.Println(i)
+	fmt.Println(p)
 }
