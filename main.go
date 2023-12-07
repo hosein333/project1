@@ -10,5 +10,7 @@ func main() {
 	fmt.Println(i)
 	fmt.Println(p)
         fmt.Println(&i)
+        fmt.Println(*p)
+
 
 }
