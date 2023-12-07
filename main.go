@@ -6,5 +6,6 @@ import "fmt"
 const 	lightSpeed = 30000 // 30000 km/s
 
 func main() {
-	fmt.Println(lightSpeed)
+	newSpeed := lightSpeed + 1
+	fmt.Println(lightSpeed, newSpeed)
 }
