@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-// lightSpeed light speed with km/s unit
-const 	lightSpeed = 30000 // 30000 km/s
-
+const (
+	water = iota
+	air = iota
+	soil = iota
+	glass = iota
+)
 func main() {
-	newSpeed := lightSpeed + 1
-	fmt.Println(lightSpeed, newSpeed)
+	fmt.Println(water, air, soil, glass)
 }
