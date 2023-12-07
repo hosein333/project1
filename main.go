@@ -7,10 +7,15 @@ func main() {
 	var p *int
 	p = &i
 
-	fmt.Println(i)
-	fmt.Println(p)
-        fmt.Println(&i)
-        fmt.Println(*p)
+	fmt.Println("i :", i)
+	fmt.Println("p : ", p)
+	fmt.Println("&i : ", &i)
+	fmt.Println("*p : ", *p)
+
+	i = 102
+
+	fmt.Println("*p :", *p)
+
 
 
 }
