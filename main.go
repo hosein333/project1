@@ -1,11 +1,10 @@
 package main
 
 import "fmt"
-type float float64
+
+// lightSpeed light speed with km/s unit
+const 	lightSpeed = 30000 // 30000 km/s
 
 func main() {
-	var f float = 5.2
-	var g float64 = 5.2
-
-	fmt.Println("f == g", f == float(g))
+	fmt.Println(lightSpeed)
 }
